@@ -92,7 +92,7 @@ We welcome contributions from the community. Here’s how you can get involved:
 1. **Fork the Repository:** Click the "Fork" button at the top right of the [Sarthi OS GitHub page](https://github.com/ketivee/sarthi-Os).
 2. **Clone Your Fork:**
     ```bash
-    git clone https://github.com/<your-username>/sarthi-Os.git
+    git clone [https://github.com/ketivee/sarthi-Os]
     cd sarthi-Os
     ```
 3. **Add the Upstream Repository:**
