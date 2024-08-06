@@ -1,0 +1,37 @@
+sarthi_os/
+├── boot/
+│   ├── boot.c
+│   ├── gui.c
+│   ├── disk.c
+│   ├── fs.c
+│   ├── net.c
+│   ├── graphics.c
+│   ├── icons/
+│   │   ├── disk.bmp
+│   │   └── welcome.bmp
+├── include/
+│   ├── efi.h
+│   ├── efiapi.h
+│   ├── gui.h
+│   ├── disk.h
+│   ├── fs.h
+│   ├── net.h
+│   ├── graphics.h
+├── src/
+│   ├── kernel/
+│   │   ├── main.c
+│   │   ├── panic.c
+│   │   ├── interrupts.c
+│   │   ├── memory.c
+│   │   ├── resource.c
+│   │   ├── file_system.c
+│   │   └── terminal.c
+├── packages/
+│   ├── package_manager.c
+│   └── ...
+├── scripts/
+│   ├── build.sh
+│   ├── create_package.sh
+│   └── ...
+├── Makefile
+└── README.md
